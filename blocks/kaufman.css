@@ -1,0 +1,20 @@
+.kaufman {
+    position: relative;
+    background-color: #1F1F1F ;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.kaufman__image {
+    background-image: url('../images/triangle.svg');
+    width: 660px;
+    height: 636px;
+    overflow: hidden;
+}
+
+.kaufman__image_position {
+    position: absolute;
+    top: 0;
+    right: 124px;
+    z-index: -1;
+}

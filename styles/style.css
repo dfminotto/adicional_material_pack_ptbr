@@ -1,0 +1,424 @@
+.page {
+    min-width: 1100px;
+    /* Ainda não sabemos como fazer versões móvel de sites, 
+    então aqui configuramos uma largura mínima de página */
+    max-width: 1600px;
+    /* Aqui configuramos uma largura máxima de página */
+    margin: 0 auto;
+    /* Isso garante que todo o conteúdo seja centralizado em telas maiores que 1600px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aqui temos dois exemplos de seletores para lembrá-lo de como 
+configurar estilos para elementos*/
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+}
+
+/*incluindo elementos com modificadores de valor-chave */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
+/* <!-- --------------------------- HEADER --------------------------- --> */
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #F2F2F2 ;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+    background-image: url('../images/TripletenLogo.svg');
+}
+
+.logo__size {
+    width: 154px;;
+    height: 31px;
+}
+
+.logo__place {
+    position: absolute;
+    left: 64px;
+    top: 30px;
+}
+
+.header__title {
+    width: 730px;
+    margin-left: 64px;
+    z-index: 5;
+}
+
+.header__title_text {
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+    z-index: 5;
+}
+
+.header__subtitle_text {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header__subtitle_link {
+    
+}
+
+.header__images {
+    
+}
+
+.header__images_main-illustration {
+    position: absolute;
+    z-index: 1;
+    width: 608px;
+    height: 756px;
+    bottom: 0;
+    right: 0;
+}
+
+.header__images_square {
+    position: absolute;
+    z-index: 0;
+    width: 568px;
+    height: 568px;
+    top: 64px;
+    right: 0;
+}
+
+/* --------------------------- DESCRIPTION --------------------------- */
+
+.description {
+    min-width: 784px;
+    width: 80%;
+    margin: 100px;
+}
+
+.description__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__title {
+    width: 175px;
+    /* flex-direction: column; */
+}
+
+.description__title-text {
+    color: blue;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.description__problems {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.description__point {
+    list-style-type: none;
+}
+
+.description__point-text {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.description__span {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* --------------------------- DIGITS --------------------------- */
+
+.title {
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.title__text {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sub-title {
+    width: 60%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.sub-title__text {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    align-self: center;
+}
+
+.cards {
+    width: 1100px;
+    background-size: cover;
+    margin: 60px auto 100px;
+}
+
+.cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.cards__itens {
+    width: 250px;
+    margin-bottom: 60px;
+}
+
+.cards__heading {
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.cards__footer {
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* --------------------------- FEYNMAN --------------------------- */
+
+.feynman {
+    position: relative;
+}
+
+.feynman__content {
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feynman__title {
+    width: 775px;
+    margin-top: 100px;
+    z-index: 5;
+    text-align: center
+}
+
+.feynman__title_text {
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feynman__sub-title {
+    
+    justify-content: center;
+    margin-top: 70px;
+    /* margin-left: auto; */
+}
+
+.feynman__sub-title_text {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+}
+
+.feynman__link_text {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2F80ED ;
+}
+
+.feynman__image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 867px;
+    height: 637px;
+    z-index: -1;
+    background-image: url("../images/feynman.png");
+}
+
+/* --------------------------- KAUFMAN --------------------------- */
+
+.kaufman {
+    position: relative;
+    background-color: #1F1F1F ;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.title_dark_theme {
+    color: white;
+}
+
+.title__text_dark_theme {
+    color: white;
+}
+
+.sub-title_dark_theme {
+    color: white;
+}
+
+.sub-title__text_dark_theme {
+    color: white;
+    margin-bottom: 80px;
+}
+
+.cards_dark_theme {
+    color: white;
+    margin: auto;
+    z-index: 1;
+}
+
+.cards__list_dark_theme {
+    z-index: 5;
+    row-gap: 80px;
+}
+
+.cards__itens_dark_theme {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.cards__heading_dark_theme {
+    margin-bottom: 20px;
+} 
+
+.cards__text_dark_theme {
+    color: white;
+    align-items: baseline;
+}
+
+.kaufman__image {
+    background-image: url('../images/triangle.svg');
+    width: 660px;
+    height: 636px;
+    overflow: hidden;
+}
+
+.kaufman__image_position {
+    position: absolute;
+    top: 0;
+    right: 124px;
+    z-index: -1;
+}
+
+/* --------------------------- FOOTER --------------------------- */
+
+.footer {
+    box-sizing: border-box;
+    background-color: #1F1F1F;
+    position: relative;
+    min-height: 350px;
+}
+
+.footer__columns {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #2F80ED;
+}
+
+.footer__copyright {
+    flex-basis: 711px;
+    background-color: aqua;
+    
+}
+
+.logo__size_footer {
+    width: 183px;
+    height: 35px;
+}
+
+.footer__copyright_text {
+    color: white;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.about {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.footer__heading {
+    color: white;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer__text {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.social {
+    
+}
+
+.social__logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}

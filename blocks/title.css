@@ -1,0 +1,19 @@
+.title {
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.title__text {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_dark_theme {
+    color: white;
+}
+
+.title__text_dark_theme {
+    color: white;
+}

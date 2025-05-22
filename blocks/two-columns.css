@@ -1,0 +1,33 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.two-columns__brief {
+    width: 175px;
+    color: #2F80ED ;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.two-columns__main-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    min-width: 784px;
+    width: 80%;
+}
+
+.two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+}
