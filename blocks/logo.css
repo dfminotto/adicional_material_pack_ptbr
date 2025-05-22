@@ -10,3 +10,8 @@
     top: 30px;
     z-index: 5;
 }
+
+.logo__place_footer {
+    display: flex;
+    flex-direction: column;
+}

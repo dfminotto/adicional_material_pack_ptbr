@@ -4,7 +4,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* row-gap: 20px; */
+}
+
+.table-theme-dark {
+    margin: 0 auto 90px;
+    position: relative;
+    z-index: 1;
 }
 
 .table__cell {
@@ -13,10 +18,19 @@
     margin-top: 60px;
 }
 
+.table__cell-theme-dark {
+    width: 200px;
+    margin-top: 80px;
+}
+
 .table__heading {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
+}
+
+.table__heading-theme-dark {
+    color: white;
 }
 
 .table__text {
@@ -24,4 +38,8 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+}
+
+.table__text-theme-dark {
+    color: white;
 }

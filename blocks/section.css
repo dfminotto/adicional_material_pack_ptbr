@@ -8,6 +8,12 @@
     font-weight: bold;
 }
 
+.section-title-theme-dark {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
 .section-subtitle {
     line-height: 34px;
     font-size: 24px;
@@ -15,4 +21,10 @@
     margin: 0 auto;
     text-align: center;
     font-weight: normal;
+}
+
+.section-subtitle-theme-dark {
+    color: white;
+    position: relative;
+    z-index: 1;
 }

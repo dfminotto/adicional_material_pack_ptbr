@@ -1,0 +1,17 @@
+.resourcers {
+    padding: 100px 0 217px;
+}
+
+.resources__logo-zone {
+    margin: 80px auto;
+    width: 1100px;
+    text-align: center;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
+    object-fit: contain;
+    display: inline-block; /* Centraliza a imagem */
+    margin: 0 auto;
+}
