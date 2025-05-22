@@ -6,6 +6,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .header__title {
@@ -45,11 +46,26 @@
 }
 
 .header__square {
-    position: absolute;
-    z-index: 0;
-    width: 568px;
-    height: 568px;
-    top: 64px;
-    right: 0;
-    background-color: #2F80ED ;
+  position: absolute;
+  z-index: 0;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  right: 0;
+  background-color: #2F80ED;
+  /* transform: rotate(15deg); ❌ REMOVIDO da base */
+  transform-origin: center;
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(15deg);
+  }
+  to {
+    transform: rotate(375deg); /* 15 + 360 */
+  }
 }

@@ -53,6 +53,8 @@
     width: 620px;
     height: 608px;
     margin-right: 48px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .khan__buy-link {

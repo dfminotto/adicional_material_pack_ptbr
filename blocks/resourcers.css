@@ -6,6 +6,7 @@
     margin: 80px auto;
     width: 1100px;
     text-align: center;
+    display: block;
 }
 
 .resources__logo {
