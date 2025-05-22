@@ -1,4 +1,4 @@
-# Acesse ele aqui <a href="https://dfminotto.github.io/adicional_material_pack_ptbr/" target="_blank">
+# Acesse ele <a href="https://dfminotto.github.io/adicional_material_pack_ptbr/" target="_blank">aqui</a>
 
 ## Aprendizado Rápido - Josh Kaufman
 
